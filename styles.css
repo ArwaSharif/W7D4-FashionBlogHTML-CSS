@@ -1,0 +1,73 @@
+html {
+    border-left: 5px solid lightgray;
+}
+
+body{
+    min-height: 100vmin;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin:auto
+}
+
+header, main, footer {
+    padding: 1rem 2rem;
+
+}
+
+h1 {
+    color: tomato;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    list-style-type: none;
+}
+
+.header-nav, .footer-nav{
+    justify-content: space-between;
+}
+
+.header-nav > li a {
+    color: lightgray;
+}
+
+.footer-nav > li a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.article1-title, .article2-title {
+    font-size: larger;
+    
+}
+
+.link-continues {
+    color: tomato;
+    font-weight: bold;
+    font-style: underline;
+    width: 12%;
+    float: right;
+    text-decoration: none;
+}
+
+article {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 2rem;
+}
+
+p::first-letter {
+    float: left;
+    font-size: 6rem;
+    line-height: 0.65;
+    margin: 0.1em 0.1em 0.2em 0;
+}
+
+.copyright {
+    color: lightgray;
+}
