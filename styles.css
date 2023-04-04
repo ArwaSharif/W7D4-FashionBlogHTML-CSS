@@ -15,22 +15,25 @@ footer {
   padding: 1rem 2rem;
 }
 
-h1 {
+.site-title {
   color: tomato;
+  font-size: 30pt;
+  font-weight: lighter;
+}
+
+.site-subtitle {
+    font-weight: lighter;
 }
 
 img {
   width: 100%;
 }
 
-ul {
-  display: flex;
-  padding: 0;
-  list-style-type: none;
-}
-
 .header-nav,
 .footer-nav {
+  display: flex;
+  padding: 0;
+  list-style-type: none;  
   justify-content: space-between;
 }
 
@@ -45,14 +48,13 @@ ul {
 
 .article1-title,
 .article2-title {
-  font-size: larger;
+  font-size: 25pt;
+  font-weight: lighter;
 }
 
 .link-continues {
   color: tomato;
   font-weight: bold;
-  font-style: underline;
-  width: 12%;
   float: right;
   text-decoration: none;
 }
@@ -68,6 +70,8 @@ p::first-letter {
   font-size: 6rem;
   line-height: 0.65;
   margin: 0.1em 0.1em 0.2em 0;
+  font-weight: lighter;
+  color: lightgray;
 }
 
 .copyright {

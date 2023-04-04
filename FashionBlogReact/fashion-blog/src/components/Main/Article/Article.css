@@ -1,0 +1,30 @@
+img {
+  width: 100%;
+}
+
+.article-title {
+  font-size: 25pt;
+  font-weight: lighter;
+}
+
+.link-continues {
+  color: tomato;
+  font-weight: bold;
+  float: right;
+  text-decoration: none;
+}
+
+article {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 2rem;
+}
+
+p::first-letter {
+  float: left;
+  font-size: 6rem;
+  font-weight: lighter;
+  line-height: 0.65;
+  margin: 0.1em 0.1em 0.2em 0;
+  color: lightgray;
+}

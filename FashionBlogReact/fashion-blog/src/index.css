@@ -1,0 +1,9 @@
+body {
+  border-left: 5px solid lightgray;
+  min-height: 100vmin;
+  font-family: sans-serif;
+  max-width: 1000px;
+  margin: auto;
+}
+
+

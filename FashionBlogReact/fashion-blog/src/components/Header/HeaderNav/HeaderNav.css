@@ -1,0 +1,13 @@
+ul {
+  display: flex;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-nav {
+  justify-content: space-between;
+}
+
+.header-nav > li a {
+  color: lightgray;
+}

@@ -1,0 +1,13 @@
+.header {
+  padding: 1rem 2rem;
+}
+
+.site-title {
+  color: tomato;
+  font-size: 30pt;
+  font-weight: lighter;
+}
+
+.site-subtitle {
+  font-weight: lighter;
+}
